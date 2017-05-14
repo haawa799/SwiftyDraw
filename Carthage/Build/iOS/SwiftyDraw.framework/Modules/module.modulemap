@@ -1,0 +1,10 @@
+framework module SwiftyDraw {
+  umbrella header "SwiftyDraw.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyDraw.Swift {
+    header "SwiftyDraw-Swift.h"
+}
